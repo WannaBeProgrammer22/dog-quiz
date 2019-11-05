@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dog Quiz | WannaBeProgrammer22</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- top section -->
+  <div class="intro my-5 text-center">
+    <h1 class="text-primary display-3">Dog Quiz</h1>
+  </div>
+
+  <!-- score section -->
+  <div class="result py-3 d-none bg-light text-center">
+    <div class="container lead">
+      <p>You got <span class="text-primary display-4 p-3">0</span> correct answers out of <span
+          class="text-primary display-4 p-3">10</span> question. Thank you!</p>
+    </div>
+  </div>
+
+  <!-- quiz section -->
+  <div class="bg-primary py-5">
+    <div class="container">
+      <h2 class="my-3 display-5 text-white">Answer these questions to determine how much do you know about dogs.</h2>
+
+      <form class="form-quiz text-white">
+        <div class="mt-4">
+          <p class="lead font-weight-normal">1. Normal adult dogs have how many teeth?</p>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q1" value="A" checked> 24
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q1" value="B"> 38
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q1" value="C"> 42
+            </label>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <p class="lead font-weight-normal">2. Through what part of the body do dogs sweat?</p>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q2" value="A" checked> Mouth
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q2" value="B"> Paws
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q2" value="C"> Nose
+            </label>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <p class="lead font-weight-normal">3. True or False: Dogs can only see in black and white.</p>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q3" value="A" checked> True
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q3" value="B"> False
+            </label>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <p class="lead font-weight-normal">4. What is the most common training command taught to dogs?</p>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q4" value="A" checked> Sit
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q4" value="B"> Beg
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q4" value="C"> Stay
+            </label>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <p class="lead font-weight-normal">5. What is a dog’s most highly developed sense?</p>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q5" value="A" checked> Taste
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q5" value="B"> Smell
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q5" value="C"> Sight
+            </label>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <p class="lead font-weight-normal">6. Puppies are delivered how many weeks after conception?</p>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q6" value="A" checked> 36
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q6" value="B"> 22
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q6" value="C"> 9
+            </label>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <p class="lead font-weight-normal">7. Which dog breed is the smallest of them all?</p>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q7" value="A" checked> Dachshund
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q7" value="B"> Shih tzu
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q7" value="C"> Chihuahua
+            </label>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <p class="lead font-weight-normal">8. Which dog breed has a black tongue?</p>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q8" value="A" checked> Chow chow
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q8" value="B"> Labrador
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q8" value="C"> Weimaraner
+            </label>
+          </div>
+        </div>
+
+
+        <div class="mt-4">
+          <p class="lead font-weight-normal">9. True or False: It is cheaper to spay or neuter a dog than it is to
+            raise a litter of puppies for one year.</p>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q9" value="A" checked> True
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q9" value="B"> False
+            </label>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <p class="lead font-weight-normal">7. What is the favorite dog breed of the Queen of England?</p>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q10" value="A" checked> Corgi
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q10" value="B"> Labrador
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-label-check">
+              <input type="radio" name="q10" value="C"> Pomeranian
+            </label>
+          </div>
+        </div>
+        <div class="mt-4">
+          <input type="submit" class="btn btn-light" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
