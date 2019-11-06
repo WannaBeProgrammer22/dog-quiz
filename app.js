@@ -1,9 +1,12 @@
 // set all the correct answer to q1 to 10 order
 const correctAnswer = ['C', 'B', 'B', 'A', 'B', 'C', 'C', 'A', 'A', 'B'];
+
 // get form reference
 const form = document.querySelector('.form-quiz');
+
 // hidden result 
 const result = document.querySelector('.result');
+
 // score
 const quizScore = result.querySelector('span');
 
